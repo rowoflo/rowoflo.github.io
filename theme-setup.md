@@ -51,23 +51,23 @@ owner:
   bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
   email:          you@email.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:         
-  tumblr:         
+  twitter:
+  facebook:
+  github:
+  stackexchange:
+  linkedin:
+  instagram:
+  flickr:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
   # google plus id, include the '+', eg +mmistakes
   google_plus:    +yourid
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -112,7 +112,7 @@ hpstr-jekyll-theme/
 |    |   ├── scripts.min.js  # concatenated and minifed site scripts
 |    |   ├── plugins  # plugin scripts
 |    |   └── vendor  # jQuery and Modernizr scripts
-|    └── less 
+|    └── less
 ├── images  # images for posts and pages
 ├── _config.yml  # Jekyll options
 ├── about.md  # about page
@@ -166,7 +166,7 @@ links:
     url: /other-page/
   - title: External Link
     url: http://mademistakes.com
-    external: true 
+    external: true
 {% endhighlight %}
 
 #### Background Images
@@ -214,7 +214,7 @@ There are a few configuration variables that can be changed in `Rakefile.rb`. By
 
 A good rule of thumb is to keep feature images nice and wide so you don't push the body text too far down. An image cropped around around 1024 x 256 pixels will keep file size down with an acceptable resolution for most devices. If you want to serve these images responsively I'd suggest looking at the [Jekyll Picture Tag](https://github.com/scottjehl/picturefill)[^2] plugin.
 
-The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so. 
+The two layouts make the assumption that the feature images live in the *images* folder. To add a feature image to a post or page just include the filename in the front matter like so.
 
 {% highlight yaml %}
 image:
