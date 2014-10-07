@@ -5,31 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Engineering - 2013-08-01 &#8211; Rowland's Space</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
+<title>Set up WordPress on your own web server &#8211; Rowland's Space</title>
+<meta name="description" content="I will show you how to get WordPress installed on your web serving mac.">
+<meta name="keywords" content="Wordpress">
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://rowoflo.github.io//images/rowland_web_banner.jpg">
-
-<meta name="twitter:title" content="Engineering - 2013-08-01">
-<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://rowoflo.github.io//images/">
+<meta name="twitter:title" content="Set up WordPress on your own web server">
+<meta name="twitter:description" content="I will show you how to get WordPress installed on your web serving mac.">
 <meta name="twitter:creator" content="@rowoflo">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Engineering - 2013-08-01">
-<meta property="og:description" content="">
-<meta property="og:url" content="http://rowoflo.github.io//gallery/engineering-2013-08-28-2/">
+<meta property="og:title" content="Set up WordPress on your own web server">
+<meta property="og:description" content="I will show you how to get WordPress installed on your web serving mac.">
+<meta property="og:url" content="http://rowoflo.github.io//tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/index.html">
 <meta property="og:site_name" content="Rowland's Space">
 
 
 
 
 
-<link rel="canonical" href="http://rowoflo.github.io//gallery/engineering-2013-08-28-2/">
+<link rel="canonical" href="http://rowoflo.github.io//tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/">
 <link href="http://rowoflo.github.io//feed.xml" type="application/atom+xml" rel="alternate" title="Rowland's Space Feed">
 <link rel="author" href="https://google.com/+RowlandOFlaherty?rel=author">
 
@@ -70,7 +69,7 @@
 
 </head>
 
-<body id="post" class="feature">
+<body id="page" class="feature">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
@@ -126,72 +125,125 @@
 <!-- Banner image -->
 <div class="entry-header">
   <div class="entry-image">
-    <img src="http://rowoflo.github.io//images/rowland_web_banner.jpg" alt="Engineering - 2013-08-01">
+    <img src="http://rowoflo.github.io//images/rowland_web_banner.jpg" alt="Set up WordPress on your own web server">
   </div><!-- /.entry-image -->
 </div><!-- /.entry-header -->
 
 
 <div id="main" role="main">
-  <article class="hentry">
+  <article class="entry">
     <header class="header-title">
       <div class="header-title-wrap">
-        
-          <h1 class="entry-title"><a href="http://rowoflo.github.io//gallery/engineering-2013-08-28-2/" rel="bookmark" title="Engineering - 2013-08-01">Engineering - 2013-08-01</a></h1>
-        
-        <h2>August 28, 2013</h2>
+        <h1 class="entry-title">Set up WordPress on your own web server</h1>
         
         <p class="entry-reading-time">
           <i class="fa fa-clock-o"></i>
           
-          Reading time ~1 minute
+          Reading time ~2 minutes
         </p><!-- /.entry-reading-time -->
         
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>[gallery]</p>
+      
+      <div class="article-image">
+        <img src=https://farm4.staticflickr.com/3933/15464439312_e08baa5cae_o.jpg>
+      </div>
+      
+      <p>Now that you have your web server set up (after reading my previous how to - <a href="/tutorials/2011-07-16-set-up-your-own-web-server">Set up your own web server</a> I will show you how to get WordPress installed on your web serving mac. I will do this using almost entirely unix commands in the Terminal.app.</p>
+
+<p>To get started first open up the terminal (/Applications/Utilities/Terminal.app).</p>
+
+<p>Type the following commands into the terminal.</p>
+
+<ol>
+  <li>
+    <p>Download WordPress
+<code>cd ~/Downloads</code>
+wget http://wordpress.org/latest.zip</p>
+  </li>
+  <li>
+    <p>Unzip wordpress folder to web server root directory
+<code>unzip -q latest.zip -d ~/Sites</code></p>
+  </li>
+  <li>
+    <p>Rename wordpress folder to “myWordPressSite”
+<code>cd /Library/WebServer/Documents</code>
+<code>mv wordpress myWordPressSite</code></p>
+  </li>
+  <li>
+    <p>Change group of “myWordPressSite” folder and all lower folders/files to localaccounts
+<code>chgrp -R localaccounts myWordPressSite</code></p>
+  </li>
+  <li>
+    <p>Change permissions of “myWordPressSite” folder and all lower folders/files
+<code>chmod -R u+rw-x+X,g=rw-x+X,o= myWordPressSite</code></p>
+  </li>
+  <li>
+    <p>Create a .htaccess file with the correct permissions
+<code>touch .htaccess</code>
+<code>chgrp localaccounts .htaccess</code>
+<code>chmod 660 .htaccess</code></p>
+  </li>
+  <li>
+    <p>Create a new mySQL database named myWordPressSite
+<code>mysql -u root -p</code>
+<code>mysql&gt; create database myWordPressSite;</code></p>
+  </li>
+  <li>
+    <p>Create a new mySQL user named wordpress
+<code>mysql&gt; use mysql;</code>
+<code>mysql&gt; insert into user (host,user,password)</code>
+<code>values('localhost','wordpress',password('somePassword'));</code></p>
+  </li>
+  <li>
+    <p>Add previliges for new wordpress user
+<code>mysql&gt; grant all on myWordPressSite.* to 'wordpress'@'localhost';</code>
+<code>mysql&gt; flush privileges;</code>
+<code>mysql&gt; exit;</code></p>
+  </li>
+  <li>
+    <p>Set up wordpress by going to http://localhost/myWordPressSite in your web browser and fill out the following form in your browser
+Database Name: <code>myWordPressSite</code>
+User Name: <code>wordpress</code>
+Password: <code>somePassword</code>
+Database Host: <code>localhost</code>
+Table Prefix: <code>wp_</code></p>
+  </li>
+  <li>
+    <p>Install WordPress by hitting the button</p>
+  </li>
+  <li>
+    <p>Copy index.php file to webserver root directory
+<code>cp -a myWordPresSite/index.php .</code></p>
+  </li>
+  <li>
+    <p>Edit new index.php file in your favorite text editor
+Edit the line from
+<code>require('./wp-blog-header.php');</code>
+to
+<code>require('./myWordPressSite/wp-blog-header.php');</code></p>
+  </li>
+  <li>
+    <p>All done. Check out your WordPress site at: http://localhost</p>
+  </li>
+</ol>
+
+<p>If want to install WordPress locally using MAMP here is a great tutorial on how to do that <a href="http://codex.wordpress.org/Installing_WordPress_Locally_on_Your_Mac_With_MAMP">http://codex.wordpress.org/Installing_WordPress_Locally_on_Your_Mac_With_MAMP</a></p>
 
       <footer class="entry-meta">
-        <span class="entry-tags"></span>
-        <span><a href="http://rowoflo.github.io//gallery/engineering-2013-08-28-2/" rel="bookmark" title="Engineering - 2013-08-01">Engineering - 2013-08-01</a> was published on <span class="entry-date date published updated"><time datetime="2013-08-28T00:00:00-04:00">August 28, 2013</time></span></span>
-        (revised: <span class="entry-date date modified"><time datetime="2013-08-01">08/01/2013</time></span>)
-        <span class="author vcard"><span class="fn"><a href="http://rowoflo.github.io//about/" title="About Rowland O'Flaherty">Rowland O'Flaherty</a></span></span>
+        Set up WordPress on your own web server was last modified on <span class="entry-date date modified"><time datetime="2011-07-17">2011-07-17</time></span>
+        <span class="author vcard fn">Rowland O'Flaherty</span>
         <div class="social-share">
-          <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://rowoflo.github.io//gallery/engineering-2013-08-28-2/" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://rowoflo.github.io//gallery/engineering-2013-08-28-2/" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url=http://rowoflo.github.io//gallery/engineering-2013-08-28-2/" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+          <ul class="socialcount socialcount-small inline-list" data-url="http://rowoflo.github.io//tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/index.html" data-share-text="Set up WordPress on your own web server">
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://rowoflo.github.io//tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/index.html" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://rowoflo.github.io//tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/index.html" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://rowoflo.github.io//tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/index.html" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->
       </footer>
     </div><!-- /.entry-content -->
     
-    
-    <div class="read-more">
-      
-        <div class="read-more-header">
-          <a href="http://rowoflo.github.io//gallery/engineering-2013-08-28/" class="read-more-btn">Read More</a>
-        </div><!-- /.read-more-header -->
-        <div class="read-more-content">
-          <h3><a href="http://rowoflo.github.io//post/octopart-guest-blog/" title="Guest blog for Octopart">Guest blog for Octopart</a></h3>
-          <p> <a href="http://rowoflo.github.io//post/octopart-guest-blog/">Continue reading</a></p>
-        </div><!-- /.read-more-content -->
-      
-      <div class="read-more-list">
-        
-          <div class="list-item">
-            <h4><a href="http://rowoflo.github.io//gallery/engineering-2014-01-20/" title="Engineering - 2014-01-20">Engineering - 2014-01-20</a></h4>
-            <span>Published on January 20, 2014</span>
-          </div><!-- /.list-item -->
-        
-          <div class="list-item">
-            <h4><a href="http://rowoflo.github.io//post/coursera-course-control-of-mobile-robots-goes-live/" title="Coursera Course - Control Of Mobile Robots Goes Live!">Coursera Course - Control Of Mobile Robots Goes Live!</a></h4>
-            <span>Published on January 20, 2014</span>
-          </div><!-- /.list-item -->
-        
-      </div><!-- /.read-more-list -->
-      
-    </div><!-- /.read-more -->
   </article>
 </div><!-- /#main -->
 

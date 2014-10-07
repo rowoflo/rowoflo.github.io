@@ -1,0 +1,348 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Set Up Your Own Web Server &#8211; Rowland's Space</title>
+<meta name="description" content="Ever wanted to have a webpage but didn't want to go through the process of signing up with a hosting company.">
+<meta name="keywords" content="Apache, MySQL, PHP">
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://rowoflo.github.io//images/">
+<meta name="twitter:title" content="Set Up Your Own Web Server">
+<meta name="twitter:description" content="Ever wanted to have a webpage but didn't want to go through the process of signing up with a hosting company.">
+<meta name="twitter:creator" content="@rowoflo">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Set Up Your Own Web Server">
+<meta property="og:description" content="Ever wanted to have a webpage but didn't want to go through the process of signing up with a hosting company.">
+<meta property="og:url" content="http://rowoflo.github.io//tutorials/2011-07-16-set-up-your-own-web-server/index.html">
+<meta property="og:site_name" content="Rowland's Space">
+
+
+
+
+
+<link rel="canonical" href="http://rowoflo.github.io//tutorials/2011-07-16-set-up-your-own-web-server/">
+<link href="http://rowoflo.github.io//feed.xml" type="application/atom+xml" rel="alternate" title="Rowland's Space Feed">
+<link rel="author" href="https://google.com/+RowlandOFlaherty?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://rowoflo.github.io//assets/css/main.min.css">
+<!-- Webfonts -->
+<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="http://rowoflo.github.io//assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://rowoflo.github.io//favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://rowoflo.github.io//favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://rowoflo.github.io//images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://rowoflo.github.io//images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://rowoflo.github.io//images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://rowoflo.github.io//images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+<style type="text/css">body {background-image:url(http://rowoflo.github.io//images/background_darkTriangles.png);}</style>
+
+
+</head>
+
+<body id="page" class="feature">
+
+<!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+	<button class="dl-trigger">Open Menu</button>
+	<ul class="dl-menu">
+		<li><a href="http://rowoflo.github.io/">Home</a></li>
+		<li>
+			<a href="#">About</a>
+			<ul class="dl-submenu">
+				<li>
+					<img src="http://rowoflo.github.io//images/Rowland_Cartoon_Profile.jpg" alt="Rowland O'Flaherty photo" class="author-photo">
+					<h4>Rowland O'Flaherty</h4>
+					<p>Just your average roboticist trying to build the machines of tomorrow.</p>
+				</li>
+				<li><a href="http://rowoflo.github.io//about/">Learn More &#187</a></li>
+				
+				<li>
+					<a href="http://twitter.com/rowoflo"><i class="fa fa-twitter"></i> Twitter</a>
+				</li>
+				<li>
+					<a href="http://facebook.com/rowland.oflaherty"><i class="fa fa-facebook"></i> Facebook</a>
+				</li>
+				<li>
+					<a href="https://google.com/+RowlandOFlaherty"><i class="fa fa-google-plus"></i> Google+</a>
+				</li>
+				<li>
+					<a href="http://linkedin.com/in/rowlandoflaherty"><i class="fa fa-linkedin"></i> LinkedIn</a>
+				</li>
+				<li>
+					<a href="http://github.com/rowoflo"><i class="fa fa-github"></i> GitHub</a>
+				</li>
+				
+				<li>
+					<a href="http://instagram.com/rowoflo"><i class="fa fa-instagram"></i> Instagram</a>
+				</li>
+				<li>
+					<a href="http://www.flickr.com/photos/rowoflo"><i class="fa fa-flickr"></i> Flickr</a>
+				</li>
+				
+			</ul><!-- /.dl-submenu -->
+		</li>
+		<li>
+			<a href="#">Posts</a>
+			<ul class="dl-submenu">
+				<li><a href="http://rowoflo.github.io//posts/">All Posts</a></li>
+				<li><a href="http://rowoflo.github.io//tags/">All Tags</a></li>
+			</ul>
+		</li>
+		<li><a href="http://rowoflo.github.io//tutorials.html">Tutorials</a></li><li><a href="http://rowoflo.github.io//projects/">Projects</a></li>
+	</ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
+
+<!-- Banner image -->
+<div class="entry-header">
+  <div class="entry-image">
+    <img src="http://rowoflo.github.io//images/rowland_web_banner.jpg" alt="Set Up Your Own Web Server">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
+
+<div id="main" role="main">
+  <article class="entry">
+    <header class="header-title">
+      <div class="header-title-wrap">
+        <h1 class="entry-title">Set Up Your Own Web Server</h1>
+        
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          Reading time ~7 minutes
+        </p><!-- /.entry-reading-time -->
+        
+      </div><!-- /.header-title-wrap -->
+    </header>
+    <div class="entry-content">
+      
+      <div class="article-image">
+        <img src=https://farm4.staticflickr.com/3930/15440676276_23f16f9cd0_o.jpg>
+      </div>
+      
+      <p>Ever wanted to have a webpage but didn’t want to go through the process of signing up with a hosting company, especially when you have that old mac computer not doing anything. Well that is exactly what I wanted to do. Below I give a tutorial (based on my own experience) on how to set up Apache, PHP, MySQL on a mac. The process required a lot of googling for me but hopefully this post will alleviate some that for you. Word of caution though, opening up your computer to the internet without the proper security knowledge can be severely costly. I don’t give any security advice in this tutorial, so do some homework on the security risk before opening up that firewall to all that the internet has to offer.</p>
+
+<h3 id="table-of-contents">Table of Contents</h3>
+
+<ol>
+  <li>Download the latest version of PHP and install it</li>
+  <li>Update Apache configuration file</li>
+  <li>Create a PHP5 configuration file</li>
+  <li>Test Apache is working with PHP</li>
+  <li>Download and install MySQL</li>
+  <li>Create a MySQL configuration file</li>
+  <li>Download and configure phpMyAdmin</li>
+  <li>Test MySQL with phpMyAdmin</li>
+  <li>ALL DONE!</li>
+  <li>Links</li>
+</ol>
+
+<p>First off, what is Apache, PHP, and MySQL?
+Apache: An open source web server program that comes with Mac OS X.
+PHP: General purpose scripting language used for web development. It’s needed for WordPress sites, like this one.
+MySQL: An open source database program.</p>
+
+<p>One last thing before we get started, if you want these programs but don’t want to set them up yourself there is a great program called <a href="http://www.mamp.info/en/index.html">MAMP</a> that will do it all for you. There are some drawbacks to using MAMP but it is definitely easier than doing this way. I didn’t use MAMP because I wanted to learn more about Apache, PHP, and MySQL so I thought I would do it the hard way.</p>
+
+<h3 id="download-the-latest-version-of-phphttpwwwentropychsoftwaremacosxphp-and-install-it">1. Download the latest version of <a href="http://www.entropy.ch/software/macosx/php/">PHP</a> and install it.</h3>
+
+<p>Read through the installation instruction on the PHP Apache Module website and install PHP. Take note of the Deactivate Other PHP Modules section. But overall nothing too tricky here.</p>
+
+<h3 id="update-apache-configuration-file">2. Update Apache configuration file</h3>
+
+<p>Apache comes with Mac OS X, so no reason to install this tool. But it does have to be updated to tell it to use the PHP module. This is done in the ‘httpd.conf’ file, which is located in ‘/etc/apache2’. This is owned by the system, so it can be only edited under the root user. To edit the file type the following into the terminal (Terminal.app in is in the /Applications/Utilities folder)</p>
+
+<p><code>sudo nano /etc/apache2/httpd.conf</code></p>
+
+<p>and enter your password when prompted. Now look for the line</p>
+
+<p><code>#LoadModule php5_module libexec/apache2/libphp5.so</code></p>
+
+<p>and remove the # in front of the line. If this line doesn’t exist then add it under the other LoadModule lines. Press ‘ctrl-x’, ‘y’, ‘return’ to save and exit.</p>
+
+<h3 id="create-a-php5-configuration-file">3. Create a PHP5 configuration file</h3>
+
+<p>Continuing to work in the terminal: change directories to ‘/etc’, copy the file ‘php.ini.default’ to ‘php.ini’, and edit this file.
+`
+cd /etc
+sudo cp php.ini.default php.ini
+sudo nano php.ini
+`</p>
+
+<p>In this file change the following lines
+`
+pdo_mysql.default_socket =
+mysql.default_socket =
+mysqli.default_socket =
+`</p>
+
+<p>to
+`
+pdo_mysql.default_socket = /tmp/mysql.sock
+mysql.default_socket = /tmp/mysql.sock
+mysqli.default_socket = /tmp/mysql.sock
+`</p>
+
+<p>Press ‘ctrl-x’, ‘y’, ‘return’ to save and exit.</p>
+
+<h3 id="test-apache-is-working-with-php">4. Test Apache is working with PHP</h3>
+
+<p>Turn Apache on in OS X by going to system preferences (under the apple menu), click on Sharing, and click the box next to Web Sharing. Now Apache will serve websites in the ‘/Library/WebServer/Documents’ folder to ‘http://localhost’ and websites in the ‘~/Sites’ folder to ‘http://localhost/~user’, where user is the name of your mac user account.</p>
+
+<p>Create a plain text file name the folder ‘~/Sites’ named ‘test.php’. In this text file add the following line</p>
+
+<p><code>&lt;?php phpinfo(); ?&gt;</code></p>
+
+<p>Open a web browser and goto the URL of ‘http://localhost/~user/text.php’ (replace ‘user’ with your user name). If everything was setup correctly you should see a PHP info page.</p>
+
+<h3 id="download-and-install-mysqlhttpwwwmysqlcomdownloadsmysql">5. Download and install <a href="http://www.mysql.com/downloads/mysql/">MySQL</a></h3>
+
+<p>On the download page of MySQL, download the DMG Archive version. Once the download finishes double-click the ‘mysql-5.1.51.osx10.6-x86_64.pkg’ or whatever version you downloaded. This installs MySQL on your computer. The other items are not needed but are very handy; I recommend them. ‘MySQL.prefPane’ puts a new preference item in your system preference gives you the ability to easily start and stop the MySQL server. Otherwise it has to be done through the command line. ‘MySQL_StartupItem.pkg’ allows the MySQL to startup automatically when your computer starts up. You can control this through the MySQL preference pane or by the command line.</p>
+
+<p>I recommend to also add the MySQL bin to your path in your .profile file</p>
+
+<p><code>edit ~/.profile</code></p>
+
+<p>Add this line to the text file</p>
+
+<p><code>export PATH=$PATH:/user/local/mysql/bin</code></p>
+
+<h3 id="create-a-mysql-configuration-file">6. Create a MySQL configuration file</h3>
+
+<p>Type the following command into the terminal</p>
+
+<p><code>sudo cp /usr/local/mysql/support-files/my-small.cnf /etc/my.cnf</code></p>
+
+<p>and enter your password when prompted.</p>
+
+<p>Also add a password to the “root” MySQL user.</p>
+
+<p><code>mysqladmin -u root password 'thePassword'</code></p>
+
+<h3 id="download-and-configure-phpmyadminhttpwwwphpmyadminnethomepagedownloadsphp">7. Download and configure <a href="http://www.phpmyadmin.net/home_page/downloads.php">phpMyAdmin</a></h3>
+
+<p>phpMyAdmin is a web base interface for MySQL databases. It is not needed but can be a convenient tool in administering your MySQL databases. It will also serve to check that everything else is set up properly. Once phpMyAdmin downloaded unzip it and place the ‘phpMyAdmin’ folder in the ‘~/Sites’ folder.</p>
+
+<p>Open up the ‘phpMyAdmin’ folder and copy the ‘config.sample.inc.php’ file. Rename this copy file to ‘config.inc.php’. Open this new file in a text editor and make sure the following lines look like this</p>
+
+<pre><code>/* User for advanced features */
+$cfg['Servers'][$i]['controluser'] = 'root';
+$cfg['Servers'][$i]['controlpass'] = 'thePassword';
+$cfg['Servers'][$i]['user'] = 'root';
+$cfg['Servers'][$i]['password'] = 'thePassword';
+`
+`
+/* Authentication type */
+$cfg['Servers'][$i]['auth_type'] = 'config';
+/* Server parameters */
+$cfg['Servers'][$i]['host'] = 'localhost';
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['compress'] = false;
+/* Select mysqli if your server has it */
+$cfg['Servers'][$i]['extension'] = 'mysql';
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+</code></pre>
+
+<p>Save this file.</p>
+
+<h3 id="test-mysql-with-phpmyadmin">8. Test MySQL with phpMyAdmin</h3>
+
+<p>Open up your web browser and type in the following URL ‘http://localhost/~user/phpMyAdmin’ (replace ‘user’ with your user name). If everything was setup correctly you should see the phpMyAdmin page.</p>
+
+<h3 id="all-done">9. ALL DONE!</h3>
+
+<p>That’s it. Now you have working Apache server that runs PHP code and a working MySQL server. In my next how to I will show how to get WordPress working with this setup.</p>
+
+<h3 id="links">10. Links</h3>
+
+<p>Here are some good links:</p>
+
+<p>Apache
+<a href="http://httpd.apache.org/docs/2.2/">Apache Documentation</a></p>
+
+<p>MySQL
+<a href="http://dev.mysql.com/tech-resources/articles/mysql_intro.html">Getting Started with MySQL</a>
+<a href="http://dev.mysql.com/doc/refman/5.0/en/security-guidelines.html">General MySQL Security Guidelines</a>
+<a href="http://dev.mysql.com/doc/refman/5.0/en/account-names.html">Specifying Account Names in MySQL</a>
+<a href="http://dev.mysql.com/doc/refman/5.0/en/copying-databases.html">Copying MySQL Databases to Another Machine</a></p>
+
+      <footer class="entry-meta">
+        Set Up Your Own Web Server was last modified on <span class="entry-date date modified"><time datetime="2011-07-16">2011-07-16</time></span>
+        <span class="author vcard fn">Rowland O'Flaherty</span>
+        <div class="social-share">
+          <ul class="socialcount socialcount-small inline-list" data-url="http://rowoflo.github.io//tutorials/2011-07-16-set-up-your-own-web-server/index.html" data-share-text="Set Up Your Own Web Server">
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://rowoflo.github.io//tutorials/2011-07-16-set-up-your-own-web-server/index.html" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://rowoflo.github.io//tutorials/2011-07-16-set-up-your-own-web-server/index.html" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://rowoflo.github.io//tutorials/2011-07-16-set-up-your-own-web-server/index.html" title="Share on Google Plus"><span class="count"><i class="fa fa-google-plus-square"></i> +1</span></a></li>
+          </ul>
+        </div><!-- /.social-share -->
+      </footer>
+    </div><!-- /.entry-content -->
+    
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2014 Rowland O'Flaherty. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/">HPSTR Theme</a>.</span>
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://rowoflo.github.io//assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://rowoflo.github.io//assets/js/scripts.min.js"></script>
+
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = ''; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</body>
+</html>
