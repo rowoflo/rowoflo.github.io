@@ -1,11 +1,12 @@
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url: http://rowoflo.github.io/
+# url: http://rowoflo.github.io/
+url: http://localhost:4000
 
 title:            Rowland's Space
 description:      Just my personal website...
 disqus_shortname:
 reading_time:     true
-words_per_minute: 200
+words_per_minute: 150
 
 # Owner/author information
 owner:
@@ -37,7 +38,7 @@ links:
   - title: Tutorials
     url: /tutorials.html
   - title: Projects
-    url: /projects.html
+    url: /projects/
   # - title: External Link
   #   url: http://mademistakes.com
   #   external: true

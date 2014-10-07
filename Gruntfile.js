@@ -37,6 +37,13 @@ module.exports = function(grunt) {
         }
       }
     },
+    cssmin: {
+      combine: {
+        files: {
+          'assets/css/bootstrap.min.css': ['assets/css/bootstrap.css']
+        }
+      }
+    },
     uglify: {
       dist: {
         files: {
@@ -75,7 +82,7 @@ module.exports = function(grunt) {
       less: {
         files: [
           'assets/less/*.less',
-          'assets/less/bootstrap/*.less'
+          'assets/css/bootstrap.css'
         ],
         tasks: ['recess']
       },
@@ -88,7 +95,7 @@ module.exports = function(grunt) {
     },
     clean: {
       dist: [
-        'assets/css/main.min.css',
+        'assets/css/*.min.css',
         'assets/js/scripts.min.js'
       ]
     }
@@ -102,6 +109,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-recess');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
 
   // Register tasks
   grunt.registerTask('default', [
@@ -109,7 +117,8 @@ module.exports = function(grunt) {
     'recess',
     'uglify',
     'imagemin',
-    'svgmin'
+    'svgmin',
+    'cssmin'
   ]);
   grunt.registerTask('dev', [
     'watch'

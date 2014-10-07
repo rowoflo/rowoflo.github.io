@@ -1,17 +1,16 @@
 ---
-layout: post
+layout: tutorial
 title: Set up WordPress on your own web server
-description: ""
-modified: 2011-07-18
-category: tutorial
+description: I will show you how to get WordPress installed on your web serving mac.
+modified: 2011-07-17
 tags: [Wordpress]
 image:
-  feature: rowland_web_banner.jpg
+  src: https://farm4.staticflickr.com/3933/15464439312_e08baa5cae_o.jpg
 comments: true
 share: true
 ---
 
-Now that you have your web server set up (after reading my previous how to - [Set up your own web server](http://www.rowlandoflaherty.com/posts/how-tos/set-up-your-own-web-server/)) I will show you how to get WordPress installed on your web serving mac. I will do this using almost entirely unix commands in the Terminal.app.<!-- more -->
+Now that you have your web server set up (after reading my previous how to - [Set up your own web server](/tutorials/2011-07-16-set-up-your-own-web-server) I will show you how to get WordPress installed on your web serving mac. I will do this using almost entirely unix commands in the Terminal.app.
 
 To get started first open up the terminal (/Applications/Utilities/Terminal.app).
 

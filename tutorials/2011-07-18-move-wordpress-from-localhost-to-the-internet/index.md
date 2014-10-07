@@ -1,22 +1,22 @@
 ---
-layout: post
+layout: tutorial
 title: Move WordPress from local host to the internet
-description: ""
+description: I will show you how to get WordPress out to the whole internet.
 modified: 2011-07-18
-category: tutorial
 tags: [Apache, Wordpress]
 image:
-  feature: rowland_web_banner.jpg
+  src: https://farm4.staticflickr.com/3927/15278149438_08b5b45495_o.jpg
 comments: true
 share: true
 ---
 
-Now that you got WordPress set up on your local network (after reading my previous how to - [Set up WordPress on your own web server](http://www.rosmosis.net/?p=46)) I will show you how to get WordPress out to the whole internet. <!-- more -->Be advised I don't know what I am talking about really so there may be some serious security risks in doing this.
+Now that you got WordPress set up on your local network (after reading my previous how to - [Set up WordPress on your own web server](/tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server) I will show you how to get WordPress out to the whole internet. Be advised I don't know what I am talking about really so there may be some serious security risks in doing this.
 
 1. Goto WordPress settings and change "WordPress address (URL)" and "Site address (URL)" to your external IP address. Or update that information via MySQL directly (the commands are below). Note, if your ISP blocks port 80 (like mine does) you will have to pick a different port to serve your webpage on and add that to the end of your external IP address.
-`mysql -u wordpress -p myWordPressSite`
-`mysql> update wp_options set option_value = "http://111.222.333.444/myWordPressSite" where option_name = "siteurl";`
-`mysql> update rosmosis_options set option_value = "http://111.222.333.444" where option_name = "home";`
+
+  `mysql -u wordpress -p myWordPressSite`
+  `mysql> update wp_options set option_value = "http://111.222.333.444/myWordPressSite" where option_name = "siteurl";`
+  `mysql> update rosmosis_options set option_value = "http://111.222.333.444" where option_name = "home";`
 
 *You can get your external IP a variety ways; an easy way to just goto [whatismyip.com](http://www.whatismyip.com/).
 

@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: tutorial
 title: Set Up Your Own Web Server
-description: ""
-modified: 2011-07-18
-category: tutorial
+description: "Ever wanted to have a webpage but didn't want to go through the process of signing up with a hosting company."
+modified: 2011-07-16
 tags: [Apache, MySQL, PHP]
 image:
-  feature: rowland_web_banner.jpg
+  src: https://farm4.staticflickr.com/3930/15440676276_23f16f9cd0_o.jpg
 comments: true
 share: true
 ---
@@ -127,24 +126,25 @@ Also add a password to the "root" MySQL user.
 phpMyAdmin is a web base interface for MySQL databases. It is not needed but can be a convenient tool in administering your MySQL databases. It will also serve to check that everything else is set up properly. Once phpMyAdmin downloaded unzip it and place the 'phpMyAdmin' folder in the '~/Sites' folder.
 
 Open up the 'phpMyAdmin' folder and copy the 'config.sample.inc.php' file. Rename this copy file to 'config.inc.php'. Open this new file in a text editor and make sure the following lines look like this
-`
-/* User for advanced features */
-$cfg['Servers'][$i]['controluser'] = 'root';
-$cfg['Servers'][$i]['controlpass'] = 'thePassword';
-$cfg['Servers'][$i]['user'] = 'root';
-$cfg['Servers'][$i]['password'] = 'thePassword';
-`
-`
-/* Authentication type */
-$cfg['Servers'][$i]['auth_type'] = 'config';
-/* Server parameters */
-$cfg['Servers'][$i]['host'] = 'localhost';
-$cfg['Servers'][$i]['connect_type'] = 'tcp';
-$cfg['Servers'][$i]['compress'] = false;
-/* Select mysqli if your server has it */
-$cfg['Servers'][$i]['extension'] = 'mysql';
-$cfg['Servers'][$i]['AllowNoPassword'] = true;
-`
+
+
+    /* User for advanced features */
+    $cfg['Servers'][$i]['controluser'] = 'root';
+    $cfg['Servers'][$i]['controlpass'] = 'thePassword';
+    $cfg['Servers'][$i]['user'] = 'root';
+    $cfg['Servers'][$i]['password'] = 'thePassword';
+    `
+    `
+    /* Authentication type */
+    $cfg['Servers'][$i]['auth_type'] = 'config';
+    /* Server parameters */
+    $cfg['Servers'][$i]['host'] = 'localhost';
+    $cfg['Servers'][$i]['connect_type'] = 'tcp';
+    $cfg['Servers'][$i]['compress'] = false;
+    /* Select mysqli if your server has it */
+    $cfg['Servers'][$i]['extension'] = 'mysql';
+    $cfg['Servers'][$i]['AllowNoPassword'] = true;
+
 
 Save this file.
 

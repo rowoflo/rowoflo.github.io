@@ -1,0 +1,85 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="assets/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    {% include head.html %}
+
+</head>
+
+<body id="page" class="feature">
+
+    {% include browser-upgrade.html %}
+    {% include navigation.html %}
+
+    <div id="main" role="main">
+            <header class="header-title">
+                <div class="header-title-wrap">
+                    <h1 class="entry-title">{{ page.title }}</h1>
+              </div><!-- /.header-title-wrap -->
+          </header>
+  </div>
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Projects Row -->
+    {% for project in page.projects %}
+    {% assign new_row_flag = forloop.index | modulo:3 %}
+    {% if new_row_flag == 0 %}
+    <div class="row">
+    {% endif %}
+
+        <div class="col-md-4 img-portfolio">
+            <a href={{ project[1].url }}>
+                {% if project[1].image.src %}
+                <img class="img-responsive img-hover" src={{ project[1].image.src }} alt="">
+                {% else %}
+                <img class="img-responsive img-hover" src="http://placehold.it/700x400" alt="">
+                {% endif %}
+            </a>
+            <h3>
+                <a href={{ project[1].url }}>{{ project[1].title }}</a>
+            </h3>
+            {% if project[1].description %}
+            <p>{{ project[1].description }}</p>
+            {% endif %}
+        </div>
+    {% if new_row_flag == 0 %}
+    </div>
+    {% endif %}
+    {% endfor %}
+
+    <div class="row"></div>
+
+    <hr>
+
+</div>
+<!-- /.container -->
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    {% include footer.html %}
+</footer>
+</div><!-- /.footer-wrapper -->
+
+{% include scripts.html %}
+
+</body>
+</html>
