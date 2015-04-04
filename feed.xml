@@ -2,213 +2,213 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Rowland's Space</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://rowoflo.github.io//feed.xml" />
-<link rel="alternate" type="text/html" href="http://rowoflo.github.io/" />
-<updated>2014-10-06T23:29:38-04:00</updated>
-<id>http://rowoflo.github.io//</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2015-04-04T14:07:49-04:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>Rowland O'Flaherty</name>
-  <uri>http://rowoflo.github.io//</uri>
+  <uri>http://localhost:4000/</uri>
   <email></email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Guest blog for Octopart]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/octopart-guest-blog/" />
-  <id>http://rowoflo.github.io//post/octopart-guest-blog</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/octopart-guest-blog/" />
+  <id>http://localhost:4000/post/octopart-guest-blog</id>
   <updated>2014-03-23T00:00:00-00:00</updated>
   <published>2014-03-23T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Recently I wrote a guest blog for Octopart about the MOOC I was recently involved in. You can read the blog here.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://octopart.com/blog/archives/2014/3/educational-robot-for-robotics-mooc&quot;&gt;http://octopart.com/blog/archives/2014/3/educational-robot-for-robotics-mooc&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/octopart-guest-blog/&quot;&gt;Guest blog for Octopart&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on March 23, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/octopart-guest-blog/&quot;&gt;Guest blog for Octopart&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on March 23, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Engineering - 2014-01-20]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//gallery/engineering-2014-01-20/" />
-  <id>http://rowoflo.github.io//gallery/engineering-2014-01-20</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/gallery/engineering-2014-01-20/" />
+  <id>http://localhost:4000/gallery/engineering-2014-01-20</id>
   <updated>2014-01-20T00:00:00-00:00</updated>
   <published>2014-01-20T00:00:00-05:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;[gallery]
 QuickBot&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//gallery/engineering-2014-01-20/&quot;&gt;Engineering - 2014-01-20&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/gallery/engineering-2014-01-20/&quot;&gt;Engineering - 2014-01-20&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Coursera Course - Control Of Mobile Robots Goes Live!]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/coursera-course-control-of-mobile-robots-goes-live/" />
-  <id>http://rowoflo.github.io//post/coursera-course-control-of-mobile-robots-goes-live</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/coursera-course-control-of-mobile-robots-goes-live/" />
+  <id>http://localhost:4000/post/coursera-course-control-of-mobile-robots-goes-live</id>
   <updated>2014-01-20T00:00:00-00:00</updated>
   <published>2014-01-20T00:00:00-05:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Today the &lt;a href=&quot;https://class.coursera.org/conrob-002/class&quot;&gt;Control of Mobile Robots&lt;/a&gt; course I am helping instruct goes live on Coursera. The course goes over the theory to make a mobile robot move in desirable ways (e.g avoiding obstacles). The course has both a simulator &lt;a href=&quot;http://jdelacroix.github.io/simiam/&quot;&gt;Sim.I.am&lt;/a&gt; (created by &lt;a href=&quot;http://jpdelacroix.com/&quot;&gt;JP de la Croix&lt;/a&gt;) and a hardware component, the QuickBot, created by me.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/coursera-course-control-of-mobile-robots-goes-live/&quot;&gt;Coursera Course - Control Of Mobile Robots Goes Live!&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/coursera-course-control-of-mobile-robots-goes-live/&quot;&gt;Coursera Course - Control Of Mobile Robots Goes Live!&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on January 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Engineering - 2013-11-01]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//gallery/engineering-2013-11-01/" />
-  <id>http://rowoflo.github.io//gallery/engineering-2013-11-01</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/gallery/engineering-2013-11-01/" />
+  <id>http://localhost:4000/gallery/engineering-2013-11-01</id>
   <updated>2013-11-01T00:00:00-00:00</updated>
   <published>2013-11-01T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;[gallery]&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//gallery/engineering-2013-11-01/&quot;&gt;Engineering - 2013-11-01&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on November 01, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/gallery/engineering-2013-11-01/&quot;&gt;Engineering - 2013-11-01&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on November 01, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Engineering - 2013-08-01]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//gallery/engineering-2013-08-28-2/" />
-  <id>http://rowoflo.github.io//gallery/engineering-2013-08-28-2</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/gallery/engineering-2013-08-28-2/" />
+  <id>http://localhost:4000/gallery/engineering-2013-08-28-2</id>
   <updated>2013-08-01T00:00:00-00:00</updated>
   <published>2013-08-28T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;[gallery]&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//gallery/engineering-2013-08-28-2/&quot;&gt;Engineering - 2013-08-01&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on August 28, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/gallery/engineering-2013-08-28-2/&quot;&gt;Engineering - 2013-08-01&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on August 28, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Engineering - 2013-08-28]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//gallery/engineering-2013-08-28/" />
-  <id>http://rowoflo.github.io//gallery/engineering-2013-08-28</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/gallery/engineering-2013-08-28/" />
+  <id>http://localhost:4000/gallery/engineering-2013-08-28</id>
   <updated>2013-08-28T00:00:00-00:00</updated>
   <published>2013-08-28T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;[gallery]&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//gallery/engineering-2013-08-28/&quot;&gt;Engineering - 2013-08-28&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on August 28, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/gallery/engineering-2013-08-28/&quot;&gt;Engineering - 2013-08-28&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on August 28, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[BeagleBone Black Arrives]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/beaglebone-black-arrives/" />
-  <id>http://rowoflo.github.io//post/beaglebone-black-arrives</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/beaglebone-black-arrives/" />
+  <id>http://localhost:4000/post/beaglebone-black-arrives</id>
   <updated>2013-08-28T00:00:00-00:00</updated>
   <published>2013-08-28T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Ok I am back from JPL and I am now playing with my newest toy, BeagleBone Black. If an Arduino is a go-kart this thing is a Tesla Roadster.&lt;/p&gt;
 
 &lt;p&gt;[gallery ids=”5633,5632”]&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/beaglebone-black-arrives/&quot;&gt;BeagleBone Black Arrives&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on August 28, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/beaglebone-black-arrives/&quot;&gt;BeagleBone Black Arrives&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on August 28, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[First Day at JPL]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/first-day-at-jpl/" />
-  <id>http://rowoflo.github.io//post/first-day-at-jpl</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/first-day-at-jpl/" />
+  <id>http://localhost:4000/post/first-day-at-jpl</id>
   <updated>2013-06-04T00:00:00-00:00</updated>
   <published>2013-06-04T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Today is my first day at JPL for the summer internship program. I am super excited because I am going to be working on control of 5 DOF manipulator for the 2020 mission to Mars. I have always wanted to work at JPL because they are one of the best in robotics… and here I am!&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/first-day-at-jpl/&quot;&gt;First Day at JPL&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on June 04, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/first-day-at-jpl/&quot;&gt;First Day at JPL&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on June 04, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Engineering - 2013-05-27]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//gallery/engineering-2013-05-27/" />
-  <id>http://rowoflo.github.io//gallery/engineering-2013-05-27</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/gallery/engineering-2013-05-27/" />
+  <id>http://localhost:4000/gallery/engineering-2013-05-27</id>
   <updated>2013-05-27T00:00:00-00:00</updated>
   <published>2013-05-27T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;[gallery]
 Sending wireless video for the first time.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//gallery/engineering-2013-05-27/&quot;&gt;Engineering - 2013-05-27&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on May 27, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/gallery/engineering-2013-05-27/&quot;&gt;Engineering - 2013-05-27&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on May 27, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Engineering - 2013-05-25]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//gallery/engineering-2013-05-25/" />
-  <id>http://rowoflo.github.io//gallery/engineering-2013-05-25</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/gallery/engineering-2013-05-25/" />
+  <id>http://localhost:4000/gallery/engineering-2013-05-25</id>
   <updated>2013-05-25T00:00:00-00:00</updated>
   <published>2013-05-25T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//gallery/engineering-2013-05-25/&quot;&gt;Engineering - 2013-05-25&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on May 25, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/gallery/engineering-2013-05-25/&quot;&gt;Engineering - 2013-05-25&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on May 25, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[National Robotics Week Lab Demos]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/national-robotics-week-lab-demos/" />
-  <id>http://rowoflo.github.io//post/national-robotics-week-lab-demos</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/national-robotics-week-lab-demos/" />
+  <id>http://localhost:4000/post/national-robotics-week-lab-demos</id>
   <updated>2013-04-12T00:00:00-00:00</updated>
   <published>2013-04-12T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;This is week is National Robotics week and every year the GT robotics program invite about 500 students to tour the robotics labs on campus. Me and a few other GRITS lab members were happy to volunteer and demo some of the cool robots we have in the lab.&lt;/p&gt;
@@ -222,20 +222,20 @@ Sending wireless video for the first time.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2013/04/Demo-Day-4.jpg&quot;&gt;&lt;img src=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2013/04/Demo-Day-4-1024x768.jpg&quot; alt=&quot;Demo Day-4&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/national-robotics-week-lab-demos/&quot;&gt;National Robotics Week Lab Demos&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on April 12, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/national-robotics-week-lab-demos/&quot;&gt;National Robotics Week Lab Demos&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on April 12, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Officially a Passed Robotics PhD Quals]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/officially-a-passed-robotics-phd-quals/" />
-  <id>http://rowoflo.github.io//post/officially-a-passed-robotics-phd-quals</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/officially-a-passed-robotics-phd-quals/" />
+  <id>http://localhost:4000/post/officially-a-passed-robotics-phd-quals</id>
   <updated>2013-04-10T00:00:00-00:00</updated>
   <published>2013-04-10T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;The results are in and I have passed all my sections of the robotics PhD qualifying exam. After months of studying with an awesome group of fellow robotics PhD students I have made it through the first big hurdle in the robotics PhD program… &lt;strong&gt;QUALS&lt;/strong&gt;… and a glimmer of light peeks through at the end of the tunnel.&lt;/p&gt;
@@ -244,20 +244,20 @@ Sending wireless video for the first time.&lt;/p&gt;
 
 &lt;p&gt;Luckily (well mostly hard work) for me no retakes necessary!&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/officially-a-passed-robotics-phd-quals/&quot;&gt;Officially a Passed Robotics PhD Quals&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on April 10, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/officially-a-passed-robotics-phd-quals/&quot;&gt;Officially a Passed Robotics PhD Quals&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on April 10, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[BrushBot via Teleop]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//project/brushbot-via-teleop/" />
-  <id>http://rowoflo.github.io//project/brushbot-via-teleop</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/project/brushbot-via-teleop/" />
+  <id>http://localhost:4000/project/brushbot-via-teleop</id>
   <updated>2013-02-07T00:00:00-00:00</updated>
   <published>2013-02-07T00:00:00-05:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Check the latest robot that I am using for my PhD research. This robot is a known as the BrushBot because its primary component are two standard cleaning brushes, which when vibrated move the BrushBot around. On top of the brushes are the vibration motors and by adjusting the speed of these motors the BrushBot can be controlled to move in different ways. The problem is that the movement of the BrushBot is not only random but non-stationary.&lt;/p&gt;
@@ -265,20 +265,20 @@ Sending wireless video for the first time.&lt;/p&gt;
 &lt;p&gt;I want to make sure to mention that the BrushBot was actually built by &lt;a href=&quot;http://thevariableconstant.blogspot.com/&quot;&gt;Jamison Go&lt;/a&gt;, an undergrad here at Georgia Tech.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//project/brushbot-via-teleop/&quot;&gt;BrushBot via Teleop&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on February 07, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/project/brushbot-via-teleop/&quot;&gt;BrushBot via Teleop&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on February 07, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[SDL and OpenGL Tutorial]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//tutorial/sdl-and-opengl-tutorial/" />
-  <id>http://rowoflo.github.io//tutorial/sdl-and-opengl-tutorial</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/tutorial/sdl-and-opengl-tutorial/" />
+  <id>http://localhost:4000/tutorial/sdl-and-opengl-tutorial</id>
   <updated>2013-01-31T00:00:00-00:00</updated>
   <published>2013-01-31T00:00:00-05:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Recently I wanted to use a game pad to control one of my robots. A standard way to program with game pad/joystick is to use the &lt;a href=&quot;http://www.libsdl.org&quot;&gt;Simple Directmedia Layer (SDL)&lt;/a&gt; library. I had some trouble finding a good through tutorial on how to use SDL on a Mac. That is until I came across &lt;a href=&quot;http://lazyfoo.net&quot;&gt;Lazy Foo’ Productions&lt;/a&gt; website. Salvador the author of the site has done a great job putting together a step-by-step tutorial to get anyone up and going with SDL on three different OSs (&lt;a href=&quot;http://lazyfoo.net/SDL_tutorials/lesson01/mac/xcode/index.php&quot;&gt;Mac Instrustions for Xcode 4.4&lt;/a&gt;).&lt;/p&gt;
@@ -299,20 +299,20 @@ Sending wireless video for the first time.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2013/01/Set-Working-Directory-In-Xcode.png&quot;&gt;&lt;img src=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2013/01/Set-Working-Directory-In-Xcode-1024x700.png&quot; alt=&quot;Set Working Directory In Xcode&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//tutorial/sdl-and-opengl-tutorial/&quot;&gt;SDL and OpenGL Tutorial&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on January 31, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tutorial/sdl-and-opengl-tutorial/&quot;&gt;SDL and OpenGL Tutorial&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on January 31, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Check out Hubo cutting through a wall]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//project/check-out-hubo-cutting-through-a-wall/" />
-  <id>http://rowoflo.github.io//project/check-out-hubo-cutting-through-a-wall</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/project/check-out-hubo-cutting-through-a-wall/" />
+  <id>http://localhost:4000/project/check-out-hubo-cutting-through-a-wall</id>
   <updated>2013-01-27T00:00:00-00:00</updated>
   <published>2013-01-27T00:00:00-05:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;hr /&gt;
@@ -334,20 +334,20 @@ tags:
 
 &lt;p&gt;http://vimeo.com/58278709&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//project/check-out-hubo-cutting-through-a-wall/&quot;&gt;Check out Hubo cutting through a wall&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on January 27, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/project/check-out-hubo-cutting-through-a-wall/&quot;&gt;Check out Hubo cutting through a wall&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on January 27, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Hubo (my new robot friend)]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//project/hubo-my-new-robot-friend/" />
-  <id>http://rowoflo.github.io//project/hubo-my-new-robot-friend</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/project/hubo-my-new-robot-friend/" />
+  <id>http://localhost:4000/project/hubo-my-new-robot-friend</id>
   <updated>2013-01-18T00:00:00-00:00</updated>
   <published>2013-01-18T00:00:00-05:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;&lt;img src=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2013/01/IMG_1013-225x300.jpg&quot; alt=&quot;Hubo&quot; /&gt;&lt;/p&gt;
@@ -357,83 +357,83 @@ tags:
 &lt;p&gt;Also, check out our Hubo cutting through a wall via teleoperation at &lt;a href=&quot;http://vimeo.com/57600990&quot;&gt;http://vimeo.com/57600990&lt;/a&gt;&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//project/hubo-my-new-robot-friend/&quot;&gt;Hubo (my new robot friend)&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on January 18, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/project/hubo-my-new-robot-friend/&quot;&gt;Hubo (my new robot friend)&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on January 18, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Website gets new look!]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/website-gets-new-look/" />
-  <id>http://rowoflo.github.io//post/website-gets-new-look</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/website-gets-new-look/" />
+  <id>http://localhost:4000/post/website-gets-new-look</id>
   <updated>2012-11-29T00:00:00-00:00</updated>
   <published>2012-11-29T00:00:00-05:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;As you can see the website is getting an overhaul. Looks pretty good, right?!?! I can’t take credit for the awesome banner image above. That is courtesy of Paul Huckfeldt.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/website-gets-new-look/&quot;&gt;Website gets new look!&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on November 29, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/website-gets-new-look/&quot;&gt;Website gets new look!&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on November 29, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Raspberry Pi Setup]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/raspberry-pi-setup/" />
-  <id>http://rowoflo.github.io//post/raspberry-pi-setup</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/raspberry-pi-setup/" />
+  <id>http://localhost:4000/post/raspberry-pi-setup</id>
   <updated>2012-11-03T00:00:00-00:00</updated>
   <published>2012-11-03T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Got the Pi all set up. About to install ROS on it.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2012/11/20121102-211418.jpg&quot;&gt;&lt;img src=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2012/11/20121102-211418.jpg&quot; alt=&quot;20121102-211418.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/raspberry-pi-setup/&quot;&gt;Raspberry Pi Setup&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on November 03, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/raspberry-pi-setup/&quot;&gt;Raspberry Pi Setup&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on November 03, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Raspberry Pi Just Arrived]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//post/raspberry-pi-just-arrived/" />
-  <id>http://rowoflo.github.io//post/raspberry-pi-just-arrived</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/post/raspberry-pi-just-arrived/" />
+  <id>http://localhost:4000/post/raspberry-pi-just-arrived</id>
   <updated>2012-10-25T00:00:00-00:00</updated>
   <published>2012-10-25T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;Just got the Raspberry Pi in the mail. My Arduinos are going to be jealous because I am not going to use them any more with this bad boy. Not sure what I am going to do with it yet, but I am sure it will be cool.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2012/10/RaspberryPi.jpg&quot;&gt;&lt;img src=&quot;http://www.rowlandoflaherty.com/wp-content/uploads/2012/10/RaspberryPi.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//post/raspberry-pi-just-arrived/&quot;&gt;Raspberry Pi Just Arrived&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on October 25, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/post/raspberry-pi-just-arrived/&quot;&gt;Raspberry Pi Just Arrived&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on October 25, 2012.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Added AI Portfolio]]></title>
- <link rel="alternate" type="text/html" href="http://rowoflo.github.io//project/added-ai-portfolio/" />
-  <id>http://rowoflo.github.io//project/added-ai-portfolio</id>
+ <link rel="alternate" type="text/html" href="http://localhost:4000/project/added-ai-portfolio/" />
+  <id>http://localhost:4000/project/added-ai-portfolio</id>
   <updated>2012-04-29T00:00:00-00:00</updated>
   <published>2012-04-29T00:00:00-04:00</published>
   
   <author>
     <name>Rowland O'Flaherty</name>
-    <uri>http://rowoflo.github.io/</uri>
+    <uri>http://localhost:4000</uri>
     <email></email>
   </author>
   <content type="html">&lt;p&gt;As a final assignment for my AI class (CS 6601) at Georgia Tech we were required create a portfolio to highlight everything that was completed in the class. If you want to check it out… click &lt;a href=&quot;http://www.rowlandoflaherty.com/projects/ai-portfolio/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://rowoflo.github.io//project/added-ai-portfolio/&quot;&gt;Added AI Portfolio&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://rowoflo.github.io/&quot;&gt;Rowland's Space&lt;/a&gt; on April 29, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://localhost:4000/project/added-ai-portfolio/&quot;&gt;Added AI Portfolio&lt;/a&gt; was originally published by Rowland O'Flaherty at &lt;a href=&quot;http://localhost:4000&quot;&gt;Rowland's Space&lt;/a&gt; on April 29, 2012.&lt;/p&gt;</content>
 </entry>
 
 </feed>

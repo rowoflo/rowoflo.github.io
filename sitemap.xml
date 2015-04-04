@@ -1,238 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://rowoflo.github.io/</loc>
+        <loc>http://localhost:4000</loc>
     </url>
     
     
     <url>
-        <loc>http://rowoflo.github.io//404.html</loc>
+        <loc>http://localhost:4000/404.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//about/</loc>
+        <loc>http://localhost:4000/about/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//feed.xml</loc>
+        <loc>http://localhost:4000/feed.xml</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//index.html</loc>
+        <loc>http://localhost:4000/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//archives/index.html</loc>
+        <loc>http://localhost:4000/archives/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tutorials/2011-07-18-move-wordpress-from-localhost-to-the-internet/index.html</loc>
+        <loc>http://localhost:4000/tutorials/2011-07-18-move-wordpress-from-localhost-to-the-internet/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tutorials/2011-07-16-set-up-your-own-web-server/index.html</loc>
+        <loc>http://localhost:4000/tutorials/2011-07-16-set-up-your-own-web-server/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/index.html</loc>
+        <loc>http://localhost:4000/tutorials/2011-07-17-set-up-wordpress-on-your-own-web-server/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tutorials/2011-07-19-display-your-daily-google-agenda-on-your-desktop/index.html</loc>
+        <loc>http://localhost:4000/tutorials/2011-07-19-display-your-daily-google-agenda-on-your-desktop/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//posts/</loc>
+        <loc>http://localhost:4000/posts/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//projects.html</loc>
+        <loc>http://localhost:4000/projects.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//sitemap.xml</loc>
+        <loc>http://localhost:4000/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tags/</loc>
+        <loc>http://localhost:4000/tags/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//theme-setup/</loc>
+        <loc>http://localhost:4000/theme-setup/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tutorials.html</loc>
+        <loc>http://localhost:4000/tutorials.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io///tutorials.html</loc>
+        <loc>http://localhost:4000//tutorials.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page2/index.html</loc>
+        <loc>http://localhost:4000/page2/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page3/index.html</loc>
+        <loc>http://localhost:4000/page3/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page4/index.html</loc>
+        <loc>http://localhost:4000/page4/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page5/index.html</loc>
+        <loc>http://localhost:4000/page5/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page6/index.html</loc>
+        <loc>http://localhost:4000/page6/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page7/index.html</loc>
+        <loc>http://localhost:4000/page7/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page8/index.html</loc>
+        <loc>http://localhost:4000/page8/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page9/index.html</loc>
+        <loc>http://localhost:4000/page9/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page10/index.html</loc>
+        <loc>http://localhost:4000/page10/index.html</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//page11/index.html</loc>
+        <loc>http://localhost:4000/page11/index.html</loc>
     </url>
     
 
     
     <url>
-        <loc>http://rowoflo.github.io//post/octopart-guest-blog/</loc>
+        <loc>http://localhost:4000/post/octopart-guest-blog/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//gallery/engineering-2014-01-20/</loc>
+        <loc>http://localhost:4000/gallery/engineering-2014-01-20/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/coursera-course-control-of-mobile-robots-goes-live/</loc>
+        <loc>http://localhost:4000/post/coursera-course-control-of-mobile-robots-goes-live/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//gallery/engineering-2013-11-01/</loc>
+        <loc>http://localhost:4000/gallery/engineering-2013-11-01/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//gallery/engineering-2013-08-28-2/</loc>
+        <loc>http://localhost:4000/gallery/engineering-2013-08-28-2/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//gallery/engineering-2013-08-28/</loc>
+        <loc>http://localhost:4000/gallery/engineering-2013-08-28/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/beaglebone-black-arrives/</loc>
+        <loc>http://localhost:4000/post/beaglebone-black-arrives/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/first-day-at-jpl/</loc>
+        <loc>http://localhost:4000/post/first-day-at-jpl/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//gallery/engineering-2013-05-27/</loc>
+        <loc>http://localhost:4000/gallery/engineering-2013-05-27/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//gallery/engineering-2013-05-25/</loc>
+        <loc>http://localhost:4000/gallery/engineering-2013-05-25/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/national-robotics-week-lab-demos/</loc>
+        <loc>http://localhost:4000/post/national-robotics-week-lab-demos/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/officially-a-passed-robotics-phd-quals/</loc>
+        <loc>http://localhost:4000/post/officially-a-passed-robotics-phd-quals/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/brushbot-via-teleop/</loc>
+        <loc>http://localhost:4000/project/brushbot-via-teleop/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tutorial/sdl-and-opengl-tutorial/</loc>
+        <loc>http://localhost:4000/tutorial/sdl-and-opengl-tutorial/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/check-out-hubo-cutting-through-a-wall/</loc>
+        <loc>http://localhost:4000/project/check-out-hubo-cutting-through-a-wall/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/hubo-my-new-robot-friend/</loc>
+        <loc>http://localhost:4000/project/hubo-my-new-robot-friend/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/website-gets-new-look/</loc>
+        <loc>http://localhost:4000/post/website-gets-new-look/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/raspberry-pi-setup/</loc>
+        <loc>http://localhost:4000/post/raspberry-pi-setup/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/raspberry-pi-just-arrived/</loc>
+        <loc>http://localhost:4000/post/raspberry-pi-just-arrived/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/added-ai-portfolio/</loc>
+        <loc>http://localhost:4000/project/added-ai-portfolio/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/added-video-of-robot-learning/</loc>
+        <loc>http://localhost:4000/project/added-video-of-robot-learning/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/wand-controlled-robot-swarm-inspired-by-fluid-dynamics/</loc>
+        <loc>http://localhost:4000/post/wand-controlled-robot-swarm-inspired-by-fluid-dynamics/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/uav-beginnings/</loc>
+        <loc>http://localhost:4000/project/uav-beginnings/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/added-new-academic-project-learning-with-boundaries/</loc>
+        <loc>http://localhost:4000/project/added-new-academic-project-learning-with-boundaries/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/added-matlab-utilities/</loc>
+        <loc>http://localhost:4000/post/added-matlab-utilities/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//tutorial/syncing-multiple-google-calendars-with-ical-and-with-apple-devices/</loc>
+        <loc>http://localhost:4000/tutorial/syncing-multiple-google-calendars-with-ical-and-with-apple-devices/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/pendubot-via-hybrid-control/</loc>
+        <loc>http://localhost:4000/project/pendubot-via-hybrid-control/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/makey-with-object-avoidance/</loc>
+        <loc>http://localhost:4000/post/makey-with-object-avoidance/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/makey-the-robot/</loc>
+        <loc>http://localhost:4000/project/makey-the-robot/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//project/ball-catching-robot/</loc>
+        <loc>http://localhost:4000/project/ball-catching-robot/</loc>
     </url>
     
     <url>
-        <loc>http://rowoflo.github.io//post/hello-world/</loc>
+        <loc>http://localhost:4000/post/hello-world/</loc>
     </url>
     
 </urlset>
